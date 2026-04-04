@@ -2,14 +2,24 @@
 --main-blue: #00ACDC;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0; /* Вимога тесту */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
 .header{
   box-sizing: border-box;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
   padding: 0 50px;
   width: 100%;
   margin: 0 auto
@@ -19,12 +29,11 @@
   position: relative;
   display: flex;
   align-items: center;
-  text-transform: uppercase;
+  justify-content: center;
+  height: 60px;
   text-decoration: none;
-  
   color: #000;
 }
-
 
 .logo {
   display: flex;
