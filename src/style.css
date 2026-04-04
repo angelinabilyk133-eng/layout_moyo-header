@@ -1,5 +1,5 @@
 :root {
---main-blue: #00ACDC;
+  --main-blue: #00acdc;
 }
 
 * {
@@ -15,14 +15,14 @@ body {
   font-size: 12px;
 }
 
-.header{
+.header {
   box-sizing: border-box;
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
   width: 100%;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .nav__link {
@@ -33,6 +33,7 @@ body {
   height: 60px;
   text-decoration: none;
   color: #000;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -45,7 +46,7 @@ body {
   color: var(--main-blue);
 }
 
-.nav__item{
+.nav__item {
   margin-right: 20px;
 }
 
@@ -53,7 +54,7 @@ body {
   margin-right: 0;
 }
 
-.nav__list{
+.nav__list {
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -66,7 +67,7 @@ body {
 }
 
 .nav__link.is-active::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -74,7 +75,3 @@ body {
   height: 4px;
   background-color: var(--main-blue);
 }
-
-
-
-
